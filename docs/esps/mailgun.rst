@@ -17,7 +17,7 @@ To use Anymail's Mailgun backend, set:
 
   .. code-block:: python
 
-      EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
+      EMAIL_BACKEND = "anymail.backends.mailgun.MailgunBackend"
 
 in your settings.py.
 
